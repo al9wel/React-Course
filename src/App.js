@@ -1,23 +1,35 @@
-import logo from "./logo.svg";
-import "./App.css";
 
+import Post from "./Post";
+const data = [
+  {
+    id: 1,
+    title: "one",
+    body: "one",
+    content: "one"
+  },
+  {
+    id: 2,
+    title: "two",
+    body: "two",
+    content: "two"
+  }, {
+    id: 3,
+    title: "three",
+    body: "three",
+    content: "three"
+  },
+]
 function App() {
+  // هنا نعمل ماب لمصفوفه البيانات ونحولها الى مصفوفه عناصر جاهزه
+  let content = data.map((post) => {
+    return (
+      <Post key={post.id} title={post.title} body={post.body} content={post.content} />
+    )
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {content}
+    </>
   );
 }
 export default App;
