@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import MyComponent from "./MyComponent";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
           rel="noopener noreferrer">
           Learn React
         </a>
+        {/* استدعاء الكومبونت */}
+        <MyComponent />
+        <MyComponent />
+        {/* استدعاء الكومبونت */}
       </header>
     </div>
   );
