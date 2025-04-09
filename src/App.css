@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px 0;
 }
 
 .App-link {
@@ -35,4 +36,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(30, 57, 77);
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.527);
+  padding: 20px;
+  margin-bottom: 5px;
+}
+.card h2 {
+  color: #afd3f0;
+  width: 100%;
+  text-align: center;
+}
+.card button {
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: #afd3f0;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.card button:hover {
+  background-color: #71a2c9;
+}
+.card input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #282c34;
 }
