@@ -1,21 +1,22 @@
-import logo from "./logo.svg";
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [pending, setPending] = useState(0)
+  const [done, setDone] = useState(0)
+  const handleOrderClick = async () => {
+    setPending(pending + 1)
+    setTimeout(() => {
+      setPending((p) => p - 1)
+      setDone((d) => d + 1)
+    }, 3000)
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
+        <h1>pending ({pending})</h1>
+        <h1>done ({done})</h1>
+        <button onClick={handleOrderClick}>order</button>
       </header>
     </div>
   );
