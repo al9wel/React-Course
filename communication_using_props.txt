@@ -1,0 +1,3 @@
+التواصل بين الكمبوننت عبر البروبس
+لو كان عندك ستايت الافضل و المفروض انك ماتعدلها من خارج هاذه الكمبوننت
+state-props must not updated or modifyeid from anthore compoenet
