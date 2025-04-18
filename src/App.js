@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import MyCompoenet from "./MyCompoenet";
-
+import { inputContext } from "./Context/InputContext";
 function App() {
   const [inputValue, setInputValue] = useState("")
   const handleInputChange = (v) => {
@@ -13,11 +13,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* يتم تمرير الداله التي تقوم بتعديل الستايت*/}
-        {/* ويتم تمرير القيمه الحاليه للستايت */}
-        {/* حيث اذا تم تغيير قيمه الانبوت يتم استدعاء الداله من هنا  */}
-        {/* ولذلك تتغير قيمه الستايت من داخل الكمبوننت التابعه له وليس من خارجها */}
-        <MyCompoenet value1={inputValue} setValue1={handleInputChange} />
+        {/* مثلا هنا اريد ارسال معلومات الى الكمبوننت هاذا او حفيده */}
+        {/* هاذا الكمبوننت وجميع الكمبوننت اللي تحته تقدر توصل للمعلومات اللي برسلها */}
+        <inputContext.Provider value={{ inputValue: inputValue, setInputValue: handleInputChange }}>
+          <MyCompoenet value1={inputValue} setValue1={handleInputChange} />
+        </inputContext.Provider>
         <button onClick={handleClick}>submit</button>
       </header>
     </div>

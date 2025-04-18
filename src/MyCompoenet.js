@@ -1,7 +1,10 @@
-const MyCompoenet = ({ value1, setValue1 }) => {
+import MyInput from "./MyInput"
+const MyCompoenet = () => {
     return (
         <>
-            <input type="text" value={value1} onChange={(e) => { setValue1(e.target.value) }} />
+            <div>
+                <MyInput />
+            </div>
         </>
     )
 }
