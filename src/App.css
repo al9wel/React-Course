@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.nav button {
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.308);
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.537);
+}
+.nav button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+h1 {
+  color: white;
+  text-align: center;
+}
