@@ -5,11 +5,12 @@ Each lesson has its own **branch**, allowing you to explore and practice specifi
 
 For example:
 
+- `component` branch → Examples and exercises in component.
+- `props` branch → Examples and exercises in props.
 - `useState` branch → Examples and exercises using `useState` hook.
 - `useEffect` branch → Examples using `useEffect` hook.
-- `props-state` branch → Examples with props and state.
-- `forms` branch → Handling forms in React.
-- `routing` branch → Examples using React Router.
+- `Routes` branch → Examples using React Router.
+- ..etc
 
 And so on for each lesson.
 
