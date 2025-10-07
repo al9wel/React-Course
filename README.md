@@ -75,11 +75,13 @@ The main goal of this project is to:
    ```
    5. Run the App
       - using one of these commands
+
         
    ```bash
    npm run start
    ```
-   - or 
+   - or
+     
    ```bash
    npm run dev
    ```
