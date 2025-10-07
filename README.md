@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# 📚 React Course Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains exercises and examples from a **React course**.  
+Each lesson has its own **branch**, allowing you to explore and practice specific concepts separately.
 
-## Available Scripts
+For example:
 
-In the project directory, you can run:
+- `useState` branch → Examples and exercises using `useState` hook.
+- `useEffect` branch → Examples using `useEffect` hook.
+- `props-state` branch → Examples with props and state.
+- `forms` branch → Handling forms in React.
+- `routing` branch → Examples using React Router.
 
-### `npm start`
+And so on for each lesson.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Project Purpose
 
-### `npm test`
+The main goal of this project is to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Practice **React hooks** (`useState`, `useEffect`, `useContext`, etc.).
+- Understand **component structure** and **props management**.
+- Learn **state management** in different scenarios.
+- Build a personal collection of **working examples** for future reference.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ⚛️ **React** – Core library for building components.
+- ⚡ **Vite** – Fast React project scaffolding.
+- 🎨 **Tailwind CSS** – Optional styling for examples.
+- 💻 **JavaScript (ES6+)** – Logic and functions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧾 How to Run the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone or Download the Project**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/al9wel/React-Course.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Navigate into the Project Folder**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd React-Course
+   ```
 
-## Learn More
+3. **Install Dependencies**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Navigate Between Branches "Lessons"**
+   1. List all branches
+   ```bash
+   git branch -a
+   ```
+   2. Switch to a specific lesson branch
+   ```bash
+   git checkout useState
+   ```
+   3. Pull latest changes for that branch
+   ```bash
+   git pull origin useState
+   ```
+   4. "Important" Install dependencies again specific for that branch
+   ```bash
+   npm install
+   ```
+   5. Run the App
+   ```bash
+   npm run dev
+   ```
+   - or
+   ```bash
+   npm run dev
+   ```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻 Author
 
-### Analyzing the Bundle Size
+**Salem Ahmed Saeed Alswil**  
+💼 Front-End Developer | React Projects  
+📧 [sa.al9wel@gmail.com]  
+🌐 [GitHub Profile](https://github.com/yourusername)  
+📍 Yemen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is open-source and available for personal or educational use.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
