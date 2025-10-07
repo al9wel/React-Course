@@ -78,7 +78,6 @@ The main goal of this project is to:
    npm run start
    ```
    - if it doesn't work try
-   - 
    ```bash
    npm run dev
    ```
