@@ -15,6 +15,8 @@ function App() {
   useEffect(() => {
     const d = JSON.parse(localStorage.getItem("names"))
     setData(d)
+
+
     // هاذي الداله يتم استدعائها عندما يتم عمل
     // unMount للكمبوننت
     // اذا اشتركت في شي مثلا api requests
