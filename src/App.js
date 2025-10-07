@@ -15,6 +15,15 @@ function App() {
   useEffect(() => {
     const d = JSON.parse(localStorage.getItem("names"))
     setData(d)
+    // هاذي الداله يتم استدعائها عندما يتم عمل
+    // unMount للكمبوننت
+    // اذا اشتركت في شي مثلا api requests
+    // اذا تم عمل انماونت للكمبوننت يعني تغير الكمبوننت
+    // تستخدم controller.abort()
+    // لالغاء عمليه الاتصال مع api
+    return () => {
+      console.log("un mount")
+    }
   }, [])
 
   // هنا سيتم عمل انفنت لوب 
