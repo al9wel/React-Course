@@ -73,15 +73,12 @@ The main goal of this project is to:
    ```bash
    npm install
    ```
-   5. Run the App
-      - using one of these commands
-
-        
+   5. Run the App        
    ```bash
    npm run start
    ```
-   - or
-     
+   - if it doesn't work try
+   - 
    ```bash
    npm run dev
    ```
